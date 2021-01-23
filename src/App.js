@@ -180,7 +180,7 @@ class App extends React.Component {
         const {matrix, selection} = this.state;
         const cellSize = 90;
         return (
-            <div>
+            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 <div style={{
                     width: "100vw",
                     height: 40,
